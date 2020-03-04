@@ -7,6 +7,7 @@ module.exports = {
             '@root': path.resolve(root),
             '@config': path.resolve(root, './config'),
             '@components': path.resolve(root, './components'),
+            '@style': path.resolve(root, './style'),
         },
     },
     plugins: [
