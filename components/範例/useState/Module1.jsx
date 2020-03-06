@@ -2,7 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 import './css.scss';
 
-const Module = () => {
+const Module1 = () => {
     const className = 'useState';
     const [value, setvalue] = React.useState(0);
 
@@ -15,4 +15,4 @@ const Module = () => {
     );
 };
 
-export default Module;
+export default Module1;
