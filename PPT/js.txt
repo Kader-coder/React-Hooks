@@ -1,0 +1,16 @@
+function test(pro) {
+  let def = pro;
+​
+  function _add() {
+    def++
+  }
+​
+  function _print() {
+    return def
+  }
+​
+  return {
+    add: _add,
+    print: _print,
+  };
+}
