@@ -1,10 +1,10 @@
 @import '@style/function/flex.scss';
 @import '@style/core/basic.scss';
 
-.useState {
-    // @include flexcc;
-    button {
-        padding: 4px 12px;
-        margin-right: 12px;
+.useEffect1 {
+    height: 200vh;
+    > div {
+        position: fixed;
+        font-size: xx-large;
     }
 }

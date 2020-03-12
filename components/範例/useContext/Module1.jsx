@@ -3,17 +3,11 @@ import classNames from 'classnames';
 import './css.scss';
 
 const themes = {
-    light: {
-        foreground: '#000000',
-        background: '#eeeeee',
-    },
-    dark: {
-        foreground: '#ffffff',
-        background: '#222222',
-    },
+    foreground: '#000000',
+    background: '#eeeeee',
 };
 
-const ThemeContext = React.createContext(themes.light);
+const ThemeContext = React.createContext(themes);
 
 function Module1() {
     const className = 'useEffect1';

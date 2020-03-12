@@ -4,13 +4,14 @@ import './css.scss';
 
 const Module1 = () => {
     const className = 'useState';
-    const [value, setvalue] = React.useState(0);
+    const InputRef = React.useRef('');
+    const [value, setvalue] = React.useState('');
 
     return (
         <div className={classNames(className)}>
             <div>Hello {value}</div>
-            <button onClick={() => setvalue(pre => pre + 1)}>+1</button>
-            <button onClick={() => setvalue(pre => pre - 1)}>-1</button>
+            <input ref={InputRef}></input>
+            <button onClick={() => setvalue(InputRef.current.value)}>Submit</button>
         </div>
     );
 };
