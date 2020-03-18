@@ -1,0 +1,17 @@
+@import '@style/function/flex.scss';
+@import '@style/core/basic.scss';
+
+.Pattern {
+    // @include flexcc;
+    button {
+        background-color: transparent;
+        > div {
+            min-width: 40px;
+            padding: 4px;
+            background-color: beige;
+        }
+    }
+    > img {
+        width: 100px;
+    }
+}

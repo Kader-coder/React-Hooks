@@ -3,10 +3,7 @@
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
         "jsx": "preserve",
-        "lib": [
-            "dom",
-            "es2017"
-        ],
+        "lib": ["dom", "es2017"],
         "module": "esnext",
         "moduleResolution": "node",
         "noEmit": true,
@@ -18,33 +15,19 @@
         "sourceMap": true,
         "strict": true,
         "target": "esnext",
-        "typeRoots": [
-            "./node_modules/@types",
-            "./typings"
-        ],
+        "typeRoots": ["./node_modules/@types", "./typings"],
         "baseUrl": ".",
         "paths": {
-            "@root/*": [
-                "./*"
-            ],
-            "@components/*": [
-                "./components/*"
-            ],
-            "@config/*": [
-                "./config/*"
-            ]
+            "@root/*": ["./*"],
+            "@components/*": ["./components/*"],
+            "@config/*": ["./config/*"],
+            "@style/*": ["./style/*"]
         },
         "forceConsistentCasingInFileNames": true,
         "esModuleInterop": true,
         "resolveJsonModule": true,
         "isolatedModules": true
     },
-    "include": [
-        "./**/*"
-    ],
-    "exclude": [
-        "node_modules/**/*",
-        ".config/templates/**/*",
-        "config/generate/*"
-    ]
+    "include": ["./**/*", "components/範例/JS/.stories.jsx"],
+    "exclude": ["node_modules/**/*", ".generate/**/*"]
 }

@@ -1,0 +1,10 @@
+@import '@style/function/flex.scss';
+@import '@style/core/basic.scss';
+
+.useEffect1 {
+    height: 200vh;
+    > div {
+        position: fixed;
+        font-size: xx-large;
+    }
+}
