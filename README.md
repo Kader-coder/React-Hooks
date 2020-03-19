@@ -3,7 +3,7 @@ npm install
 確定是否出現 名稱叫=> "node_modules" 的資料夾
 
 安裝好後
-npm run storbybook
+npm run storybook
 是否跳出新頁面
 
 此次課程只會用到資料夾"components"內部檔案
